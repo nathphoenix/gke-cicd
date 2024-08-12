@@ -6,5 +6,5 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/kubernetes-cloud/locations/us-central1/clusters/autopilot-cluster-1
+  cluster: projects/kubernetes-cloud-432317/locations/us-central1/clusters/autopilot-cluster-1
 

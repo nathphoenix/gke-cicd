@@ -7,5 +7,5 @@ metadata:
 description: prod
 requireApproval: true
 gke:
-  cluster: projects/kubernetes-cloud/locations/us-central1/clusters/autopilot-cluster-2
+  cluster: projects/kubernetes-cloud-432317/locations/us-central1/clusters/autopilot-cluster-2
 

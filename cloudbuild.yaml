@@ -13,7 +13,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'us-central1-docker.pkg.dev/kubernetes-cloud-432317/gke-repo/flask-image', './app2' ]
   id: 'Build Docker Image2'
-#create gke-repo with https://console.cloud.google.com/artifacts/create-repo?project=kubernetes-cloud-432317
+#create gke-repo(Artifact registry) with https://console.cloud.google.com/artifacts/create-repo?project=kubernetes-cloud-432317
   # images:
   # - 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image'
 
